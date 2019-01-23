@@ -1,0 +1,60 @@
+﻿Build started 11/11/2016 2:11:56 PM.
+     1>Project "D:\FreeRTOS\FreeRTOSV8.0.0_Modified\FreeRTOS\Demo\WIN32-MSVC\WIN32.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\RTOSDemo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\Source\include /I"..\..\Source\portable\MSVC-MingW" /I..\Common\Include /I"..\..\..\FreeRTOS-Plus\Source\FreeRTOS-Plus-Trace\Include" /I.\Trace_Recorder_Configuration /I. /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _WIN32_WINNT=0x0500 /D WINVER=0x400 /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt main_blinky.c /wd4210 
+         main_blinky.c
+     1>d:\freertos\freertosv8.0.0_modified\freertos\demo\win32-msvc\main_blinky.c(8): warning C4127: conditional expression is constant
+     1>d:\freertos\freertosv8.0.0_modified\freertos\demo\win32-msvc\main_blinky.c(6): warning C4100: 'arg' : unreferenced formal parameter
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/RTOSDemo.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\RTOSDemo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/WIN32.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\RTOSDemo.lib" /MACHINE:X86 .\Debug\RTOSDemo.exe.embed.manifest.res
+         .\Debug/trcBase.obj
+         .\Debug/trcHardwarePort.obj
+         .\Debug/trcKernel.obj
+         .\Debug/trcKernelPort.obj
+         .\Debug/trcUser.obj
+         .\Debug/croutine.obj
+         .\Debug/event_groups.obj
+         .\Debug/heap_4.obj
+         .\Debug/timers.obj
+         .\Debug/BlockQ.obj
+         .\Debug/blocktim.obj
+         .\Debug/countsem.obj
+         .\Debug/death.obj
+         .\Debug/dynamic.obj
+         .\Debug/EventGroupsDemo.obj
+         .\Debug/flop.obj
+         .\Debug/GenQTest.obj
+         .\Debug/integer.obj
+         .\Debug/PollQ.obj
+         .\Debug/QPeek.obj
+         .\Debug/QueueOverwrite.obj
+         .\Debug/QueueSet.obj
+         .\Debug/semtest.obj
+         .\Debug/timerdemo.obj
+         .\Debug/recmutex.obj
+         .\Debug/main.obj
+         .\Debug/list.obj
+         .\Debug/port.obj
+         .\Debug/queue.obj
+         .\Debug/tasks.obj
+         .\Debug/main_blinky.obj
+         .\Debug/main_full.obj
+         ".\Debug/Run-time-stats-utils.obj"
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\RTOSDemo.exe.embed.manifest" /manifest .\Debug\RTOSDemo.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         WIN32.vcxproj -> D:\FreeRTOS\FreeRTOSV8.0.0_Modified\FreeRTOS\Demo\WIN32-MSVC\.\Debug\RTOSDemo.exe
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\RTOSDemo.unsuccessfulbuild".
+         Touching ".\Debug\RTOSDemo.lastbuildstate".
+     1>Done Building Project "D:\FreeRTOS\FreeRTOSV8.0.0_Modified\FreeRTOS\Demo\WIN32-MSVC\WIN32.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.57
